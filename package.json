@@ -1,0 +1,25 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "node.js course with sample code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeLx/nodeJsSample.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeLx/nodeJsSample/issues"
+  },
+  "homepage": "https://github.com/felipeLx/nodeJsSample#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
