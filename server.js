@@ -1,5 +1,6 @@
 var express = require('express');
 var quotes = require('./quotes');
+
 var app = express();
 var port = 3000;
 var bodyParse = require('body-parser');
@@ -50,3 +51,5 @@ app.put('/quotes/:id', function(req, res) {
     console.log("Change quote with the ID: " + req.params.id);
     res.send("Change quote with the ID: " + req.params.id);
 });
+
+var db = new mysql.Database('myDatabase.db');
